@@ -1,0 +1,25 @@
+update: all
+
+pin: True
+
+branch: master
+
+schedule: "every day"
+
+search: True
+
+requirements:
+  - requirements.txt:
+      update: all
+      pin: True
+
+label_prs: update
+
+assignees:
+ - pseudobeer
+
+branch_prefix: pyup-
+
+pr_prefix: "[Version update] "
+
+close_prs: False
