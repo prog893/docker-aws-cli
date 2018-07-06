@@ -4,7 +4,10 @@
 Docker image based on Alpine version of official Python image with awscli preinstalled.
 - python:3.7-alpine
 - awscli
-- preinstalled 
+- preinstalled packages:
+  - git
+  - bash
+  - openssl
 
 # Usage
 ```bash
