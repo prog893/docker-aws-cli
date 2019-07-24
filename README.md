@@ -5,21 +5,25 @@
 [![](https://images.microbadger.com/badges/image/prog893/docker-aws-cli.svg)](https://microbadger.com/images/prog893/docker-aws-cli "Get your own image badge on microbadger.com")
 
 Docker image based on Alpine version of official Python image with awscli preinstalled.
-- python:3.7-alpine
-- awscli
-- preinstalled packages:
-  - git
-  - bash
-  - openssl
 
-# Usage
+## Image contents
+### Base image
+- python:3.7-alpine
+
+### Preinstalled packages
+- awscli
+- git
+- bash
+- openssl
+
+## Usage
 ```bash
 $ docker pull prog893/docker-aws-cli:latest
 ```
 
 For specific version of awscli, use aws-cli version tags:
 ```bash
-$ docker pull prog893/docker-aws-cli:latest
+$ docker pull prog893/docker-aws-cli:1.16.72
 ```
 
 Versions v1.15.52 and newer are available. Check the full list of available tags [here](https://cloud.docker.com/repository/docker/prog893/docker-aws-cli/tags).
