@@ -68,9 +68,9 @@ workflows:
   build:
     jobs:
       - build:
-        filters:
-          branches:
-            ignore: master
+          filters:
+            branches:
+              ignore: master
   build-master:
     jobs:
       - build:
