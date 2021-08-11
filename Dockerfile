@@ -1,5 +1,5 @@
 FROM python:3.7-alpine
-LABEL maintainer "pseudobeer"
+LABEL maintainer "prog893"
 
 COPY requirements.txt /tmp/requirements.txt
 
