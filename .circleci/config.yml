@@ -2,7 +2,7 @@ version: 2
 jobs:
   docker-build:
     docker:
-      - image: docker:18
+      - image: cimg/base
     steps:
       - checkout
       - setup_remote_docker
